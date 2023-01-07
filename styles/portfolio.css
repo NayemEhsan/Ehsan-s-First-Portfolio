@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    colour: #eb1c1c;
+}
+
+.btn-primary{
+    color: aliceblue;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: rgb(3, 3, 231);
+    border-radius: 5px;
+    background-color: rgb(4, 4, 219);
+}
+.header{
+    background-color:azure;
+    background-image: url(../images/background.jpg),url();
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+/* header and navigation */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-tittle{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style-type: none;
+    margin-left: 50px; 
+}
+/* banner styles */
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.banner-tittle{
+    font-weight: 700;
+    font-size: 85px;
+
+}
+.banner-sub-tittle{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    color: darkgray;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+section{
+    margin-top: 200px;
+    
+    
+}
+/*  about section style */
+.about{
+
+background-color: rgb(219, 220, 223);
+border-radius: 10px;
+padding: 130px 150px;
+text-align: center;
+}
+.section-tittle{
+text-align: center;
+margin-top: 100px;
+margin-bottom: 50px;
+
+font-weight: 700px;
+font-size: 35px;
+margin-bottom: 50px;
+}
+.section-description{
+color: rgb(168, 127, 127);
+font: 18px;
+margin-bottom: 30px;
+
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info-tittle{
+    font-size: 20px;
+    color: lightsteelblue;
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: dimgray ;
+}
+/* what i do styles */
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+
+}
+.skill{
+    background:white;
+    box-shadow: 0px 6px 50px black;
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-tittle{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: darkgray;
+}
+ /* resume style */
+ .resume-content{
+    display: flex;
+ }
+ .resume .tittle{
+    font-weight: 700;
+    font-size: 25px;
+    color: dimgray;
+    
+ }
+ .resume .sub-tittle{
+    color: darkgrey;
+    font-weight:600 ;
+    font-size: 20px;
+
+ }
+ .resume .description{
+    color: rgba(240, 255, 255, 0.438);
+
+ }
